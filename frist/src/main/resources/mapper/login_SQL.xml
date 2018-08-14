@@ -11,12 +11,12 @@
 
 	<select id="login" parameterType="com.wavem.frist.vo.UserInfoVo"  resultType="com.wavem.frist.vo.UserInfoVo">
 		SELECT 
-			usr_id
-			, usr_pw
-			, usr_nm
-		FROM sample_user
-		WHERE usr_id = #{userId}
-		AND usr_pw = #{userPass}
+			userid
+			, userpw
+			, aucode
+		FROM user_id_list
+		WHERE userid = #{userId}
+		AND userpw = #{userPass}
 	</select>
 
 </mapper>

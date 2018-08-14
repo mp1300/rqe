@@ -8,7 +8,7 @@
 	<!-- PostgreSQL JDBC setting -->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
         <property name="driverClass" value="org.postgresql.Driver"/>
-        <property name="url" value="$jdbc:postgresql://localhost:5432/test_db"/>
+        <property name="url" value="$jdbc:postgresql://localhost:5432/bmt_service"/>
         <property name="username" value="admin"/>
         <property name="password" value="admin1234"/>
     </bean>

@@ -22,7 +22,7 @@ public class SampleController {
 	private SampleService sampleService;
 	
 	
-	@RequestMapping(value = "/sample.do", method = RequestMethod.POST)
+	@RequestMapping(value = "/sample.do", method = RequestMethod.GET)
 	public ModelAndView sample() {
 		ModelAndView mv = new ModelAndView("main");
 		
